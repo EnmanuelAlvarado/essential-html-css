@@ -1,8 +1,8 @@
 :root {
-  --gray40: #212121;
-  --gray30: #212429;
+  --gray40: #1f0202;
+  --gray30: #1661e3;
   --gray20: #424242;
-  --gray10: #616161;
+  --gray10: #bb1bdb;
   --headline1: 'Roboto';
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/fondohero.png);
+  background-image: linear-gradient(to top, #5207f49d, transparent), url(../img/fondohero.png);
   /* background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/webdeveloper.jpg); */
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +48,7 @@ hr {
 }
 
 h2 {
-  text-shadow: 7px 4px 5px blueviolet;
+  text-shadow: 7px 4px 5px rgb(73, 43, 226);
   font-size: 2em;
   margin-block-start: 64px;
   margin-block-end: 40px;
@@ -144,15 +144,15 @@ nav details summary {
 }
 
 pre {
-  background-color: #FEC62E;
+  background-color: #00ff88;
   padding-block-start: 40px;
   padding-block-end: 40px;
   padding-inline-start: 40px;
   font-family: var(--headline1);
   line-height: 24px;
-  border: 8px solid #5551FF;
+  border: 8px solid #65ff51;
   border-radius: 8px;
-  box-shadow: -10px 10px 0 0 #ABAAF6;
+  box-shadow: -10px 10px 0 0 #02020f;
   margin-block-end: 30px;
   overflow: auto;
 }
